@@ -21,5 +21,9 @@ export default async function decorate(block) {
 
     decorateIcons(footer);
     block.append(footer);
+	
+	let div = block.firstElementChild.children;
+	div[0].className = "top-section";
+	div[1].className = "bottom-section";
   }
 }
