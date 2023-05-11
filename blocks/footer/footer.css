@@ -12,3 +12,43 @@ footer .footer {
 footer .footer p {
   margin: 0;
 }
+
+footer.footer-wrapper {
+    background: #202020;
+    color: #f7f7f7;
+    margin: 0 auto;
+    max-width: 874p;
+}
+
+
+.top-section {
+    display: flex;
+    margin-bottom: 36px;
+    font-size: 14px;
+}
+
+.top-section img {
+    width: 128px;
+    height: 47px;
+}
+
+.top-section ul {
+    display: flex;
+    color: #ebebeb;
+    list-style: none;
+    gap: 17px;
+}
+
+.top-section a {
+    text-decoration: none;
+    color: #ebebeb !important;
+}
+
+h4#follow-us {
+    margin-left: 200px;
+}
+
+.bottom-section {
+    line-height: 1.25;
+    font-size: 12px;
+}
